@@ -1,0 +1,34 @@
+.paragrafo{
+    color: white;
+    font-size: 18pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nome{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    background-image: url(cavalo.gif);
+    margin: 25px;
+}
+
+a:hover{
+    color: white;
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista{
+    display: grid;
+    justify-content: center;
+    color: white;
+}
