@@ -1,78 +1,127 @@
-.body{
+body{
     background-color: lightgrey;
 }
 
 .cabeçalho{
-    font-size: 15px;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    background-color: bisque;
-    border: solid 2px darkblue;
-    color: darkgreen; 
-}
-
-#img1{
-    position: absolute;
-    top: 15px;
-    left: 15px;
-}
-
-#img2{
-    position: absolute;
-    top: 15px;
-    right: 15px;
-}
-
-.azul{
-    display: flex;
-    justify-content: center;
-    background-color: lightskyblue;
-}
-
-.subtitulos{
-    font-size: 10px;
-    display: inline-flex;
+    display: flex; 
     justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: bisque;
+    border: 2px solid darkblue;
+    color: darkgreen;
+}
+
+.logo{
+    width: 110px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
     gap: 80px;
+    background-color: lightskyblue;
+    padding: 5px;
     color: darkred;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .introducao{
-    display: flex;
-    justify-content: center;
-    margin: 15px;
+    text-align: center;
+    margin: 20px;
 }
 
-.p1{
-    color: indigo;
+.paragrafos{
     text-align: center;
-    font-family: sans-serif;
-}
-
-.p2{
     color: indigo;
-    text-align: center;
     font-family: sans-serif;
-}
-
-.p3{
-    color: indigo;
-    text-align: center;
-    font-family: sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .livros{
     display: flex;
     justify-content: center;
-    margin: 15px;
+    gap: 80px;
+    margin-top: 20px;
 }
 
 .imagens2{
-    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.imagens2 img{
+    height: 300px;
+}
+
+.fei{
+    text-align: center;
+    margin: 30px;
+}
+
+.midia{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 40px;
+}
+
+.video iframe,
+.mapa iframe{
+    width: 300px;
+    height: 300px;
+    border: 0;
+}
+
+.contatos{
+    text-align: center;
+    margin: 20px;
+}
+
+.tabela{
+    margin: auto;
+    border: 5px dashed red;
+    border-spacing: 1px;
+}
+
+.tabela td{
+    border: 1px solid darkred;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.tabela th{
+    border: 1px solid darkred;
+    padding: 10px 10px;
+    text-align: center;
+    color: red;
+}
+
+.quadro{
+    background-color: yellow;
+    padding-bottom: 0.5px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.sites a{
+    margin-left: 75px;
+    color: darkred;
+    font-weight: bold;
+}
+
+.rodape{
+    background-color: bisque;
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    align-items: center;
+    font-family: Comic Sans MS;
+    font-size: medium;
+}
+
+.logo2{
+    width: 110px;
+    height: 110px;
 }
